@@ -1,10 +1,25 @@
 # Convolutional Quasi-Recurrent Network (CQRN) for PyTorch
 
-This repository contains the PyTorch implementation of the Convolutional Quasi-Recurrent Network(CQRN) proposed in paper [A Convolutional Quasi-Recurrent Network for Real-time Speech Enhancement](http://kns.cnki.net/kcms/detail/61.1076.TN.20211207.1214.006.html).
+This repository contains the PyTorch implementation of the Convolutional Quasi-Recurrent Network(CQRN) proposed in paper [A Convolutional Quasi-Recurrent Network for Real-time Speech Enhancement](https://oversea.cnki.net/kcms/detail/61.1076.TN.20211207.1214.006.html).
 
-## Software Requirements
-
+## Requirements
 Requirements are provided in `requirements.txt`.
+
+- PyTorch 1.8 from a nightly release. Installation instructions can be found in [Pytorch](https://pytorch.org/get-started/previous-versions/#v180)
+
+
+## Installation
+
+#### From source:
+1. Clone the source:
+
+  ```git clone https://github.com/syljoy/pytorch-cqrn.git```
+2. Install the Pytorch-CQRN package into python virtual environment:
+
+  `python setup.py install` or `pip install`.
+
+#### From PyPi:
+  ```pip install Pytorch-CQRN```
 
 
 ## Usage
